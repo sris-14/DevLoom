@@ -8,75 +8,79 @@
 <body>
     <!-- simple job application -->
     <h2>Job Application</h2>
-    <label for="name">Name:</label>
-    <br/>
-    <input type="text" name="name" id="name">
-    <br/> 
-    <br/>    
-    <label for="email">Email:</label>
-    <br/>
-    <input type="email" name="email" id="email">
-    <br/>
-    <br/>     
-    <label for="phone">Phone:</label>
-    <br/>
-    <input type="tel" name="number" id="phone">
-    <br/>
-    <br/> 
-    <label for="resume">Resume:</label>
-    <br/>
-    <input type="file" name="resume" id="resume">
-    <br/>
-    <br/>
-    <label for="experience">Experience (in years):</label>
-    <br/>
-    <input type="number" name="experience" id="experience" min="0" max="50">
-    <br/>
-    <br/>
-    <fieldset>
-        <legend>Skills</legend>
-        <label for="skills">HTML</label>
-        <input type="checkbox" name="html" id="skills">
-        <br/>
-        <label for="skills">CSS</label>
-        <input type="checkbox" name="css" id="skills">
-        <br/>
-        <label for="skills">JavaScript</label>
-        <input type="checkbox" name="js" id="skills">
-        <br/>
-    </fieldset>
-    <br/>
-    <label for="education">Highest Education</label>
-    <br/>
-    <br/>
-    <select name="education" id="edu">
-        <option value="Other">Other</option>
-        <option value="High School">High School</option>
-        <option value="Senior Secondary">Senior Secondary</option>
-        <option value="Bachelors">Bachelors</option>
-        <option value="Graduate">Graduate</option>
-    </select>
-    <br/>
-    <br/>
-
-    <fieldset>
-        <!-- <label for="availability">Availability:</label> -->
-        <legend>Availability</legend>
+    <form action="#">
         
-        <label for="fulltime">Full-Time</label>
-        <input type="radio" name="radio" id="availability">
+        <label for="name">Name:</label>
+        <br/>
+        <input type="text" name="name" id="name">
+        <br/> 
+        <br/>    
+        <label for="email">Email:</label>
+        <br/>
+        <input type="email" name="email" id="email">
+        <br/>
+        <br/>     
+        <label for="phone">Phone:</label>
+        <br/>
+        <input type="tel" name="number" id="phone">
+        <br/>
+        <br/> 
+        <label for="resume">Resume:</label>
+        <br/>
+        <input type="file" name="resume" id="resume">
         <br/>
         <br/>
-        <label for="parttime">Part-Time</label>
-        <input type="radio" name="radio" id="availability">
+        <label for="experience">Experience (in years):</label>
         <br/>
-    </fieldset>
+        <input type="number" name="experience" id="experience" min="0" max="50">
+        <br/>
+        <br/>
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">HTML</label>
+            <input type="checkbox" name="html" id="skills">
+            <br/>
+            <label for="skills">CSS</label>
+            <input type="checkbox" name="css" id="skills">
+            <br/>
+            <label for="skills">JavaScript</label>
+            <input type="checkbox" name="js" id="skills">
+            <br/>
+        </fieldset>
+        <br/>
+        <label for="education">Highest Education</label>
+        <br/>
+        <br/>
+        <select name="education" id="edu">
+            <option value="Other">Other</option>
+            <option value="High School">High School</option>
+            <option value="Senior Secondary">Senior Secondary</option>
+            <option value="Bachelors">Bachelors</option>
+            <option value="Graduate">Graduate</option>
+        </select>
+        <br/>
+        <br/>
     
-    
-    <br/>
-    <label for="comment">Additional Comments:</label>
-    <br/>
-    <textarea name="textarea" id="comment" cols="30" rows="10"></textarea>
-    <input type="submit" value="Submit Application">
+        <fieldset>
+            <!-- <label for="availability">Availability:</label> -->
+            <legend>Availability</legend>
+            
+            <label for="fulltime">Full-Time</label>
+            <input type="radio" name="radio" id="availability">
+            <br/>
+            <br/>
+            <label for="parttime">Part-Time</label>
+            <input type="radio" name="radio" id="availability">
+            <br/>
+        </fieldset>
+        
+        
+        <br/>
+        <label for="comment">Additional Comments:</label>
+        <br/>
+        <textarea name="textarea" id="comment" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submit Application">
+
+    </form>
 </body>
 </html>
