@@ -2,19 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
     <title>Document</title>
 </head>
-<body>
+<body bgcolor="lightblue">
     
-    <!-- When we include the attribute "loading=lazy" in an image tag, it tells the browser to delay the 
-    loading of the image until it is about to come into the user's viewport, or until the user starts 
-    scrolling towards it. This means that images located further down the page or outside the initial viewport
-    are not loaded immediately when the page loads. Instead, they are loaded dynamically as the user scrolls
-    or interacts with the page.
-    On small projects we can't see any difference in loading time but in large webpages where ton of data
-    is preset will have surely reduced  initial loading time after using loading=lazy
- -->
-    
+   <h1>Welcome to 7Clouds</h1>
+   <img src="7Cloud.jpg" alt="7cloudlogo" height="200px" width="200px" >
+
+   <!-- bookmarks -->
+    <ul>
+        <li id="about">About 7Clouds</li>
+        <li id="additional">Additonal Media</li>
+        <li id="eng">7Clouds English Videos</li>
+        <li id="hindi">7Clouds Hindi Videos</li>
+    </ul>
+
+    <h2 id="about">About 7Clouds</h2>
+    <p>7clouds is a record label and music curation brand on YouTube - a haven for music lovers with a family of over 25 million subscribers! We bring to you the freshest pop and electronic melodies, paired beautifully with lyric videos set against mesmerizing sky visuals. Curious? Dive into 7clouds on YouTube and let the music take you on a cloud-bound journey.
+
+        ☁️  7clouds: Where every beat touches the sky! ☁️
+    </p>
+
+    <h2 id="additional">Additional Media</h2>
+    <audio src="music_audio.mp3" controls></audio>
+
+    <video controls>
+        <source src="videoplayback (9).mp4" type="video/mp4">
+    </video>
+
 </body>
 </html>
