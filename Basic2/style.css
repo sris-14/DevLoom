@@ -1,3 +1,25 @@
+p{
+    background-color: bisque;
+}
 h1{
-    color:brown;
+   /* color: brown; */
+   text-align: center;
+   /* font-size: smaller; */
+}
+/* id selector */
+#id{
+    background-color: aliceblue;
+}
+/* class selector */
+.class{
+    background-color: palegreen;
+}
+
+/* group selector */
+p,article{
+    width: 500px;
+}
+
+p.class{
+    text-align: center;
 }
